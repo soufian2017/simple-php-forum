@@ -1,8 +1,8 @@
 <?php
     define(DBHOST, "localhost");
     define(DBUSER, "root");
-    define(DBPASS, "foufa_1998Am");
-    define(DB, "login");
+    define(DBPASS, "");
+    define(DB, "database");
 
     $drv = "mysql:dbname=".DB.";host=".DBHOST;
     try {
